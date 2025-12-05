@@ -1,0 +1,6 @@
+name = input()
+age = int(input())
+# Write code here
+print (f"In 10 years,{name} will be {age + 10} years old.")
+
+#primeira vez que fiz declarei uma noma variavel para sempre adicionar 10 ao input, mas podemos colocar ja no output
