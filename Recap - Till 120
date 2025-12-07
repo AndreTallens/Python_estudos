@@ -1,0 +1,2 @@
+idade = int(input())
+print (f"{120 - idade} years till 120")
