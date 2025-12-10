@@ -6,3 +6,6 @@ tip_amount = (tip_percentage / 100) * bill_amount
 total_amount = bill_amount + tip_amount
 
 print(total_amount)
+
+people = int(input())
+print (total_amount / people)
