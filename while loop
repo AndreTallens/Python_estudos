@@ -1,0 +1,6 @@
+var = float(input())
+
+while var >= 3.5:
+    var /= 2
+
+print(var)
