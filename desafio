@@ -1,0 +1,18 @@
+Escreva um programa que conte o número de números pares entre 10 e 50 (inclusivo).
+
+Use um for loop e um if statement para verificar se cada número é par.
+
+Armazene a contagem em uma variável chamada count_even.
+
+Lembre-se, você pode verificar se um número é par usando o operador módulo: number % 2 == 0
+
+# Type your code below
+count_even = 0
+for i in range(10, 51):
+    if i % 2 == 0:
+        count_even += 1
+
+
+
+# Don't change the line below
+print(f"count_even = {count_even}")
