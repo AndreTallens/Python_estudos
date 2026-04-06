@@ -1,0 +1,21 @@
+A Função Enumerate
+
+
+
+A função enumerate() permite que você itere por uma sequência (como uma lista, tupla ou string) enquanto mantém o controle da posição de índice de cada item.
+
+sem o enumerate(), acessaríamos tanto o índice quanto o valor da seguinte maneira:
+
+fruits = ["apple", "banana", "orange"]
+for i in range(len(fruits)):
+    print(f"Index {i}: {fruits[i]}")
+O enumerate() é uma maneira mais elegante de obter tanto o índice quanto o valor:
+
+fruits = ["apple", "banana", "orange"]
+for index, fruit in enumerate(fruits):
+    print(f"Index {index}: {fruit}")
+Ambos os exemplos produzirão a seguinte saída:
+
+Index 0: apple
+Index 1: banana
+Index 2: orange
