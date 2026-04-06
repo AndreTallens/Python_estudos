@@ -1,0 +1,45 @@
+Parâmetros de Métodos
+
+
+
+Desafio
+
+Fácil
+Escreva um programa que recebe duas entradas, números. Os números de entrada são os argumentos do método. 
+
+Crie um método que recebe dois argumentos, calcula o produto deles e o imprime, nomeie o método como quiser.
+
+Chame o método com os números de entrada.
+
+Nota! No seu código, escreva o método antes das instruções de chamada/execução dele.
+
+  using System;
+
+public class Program {
+    // Method declaration
+    
+    
+    public static void Main(string[] args) {
+        int a = int.Parse(Console.ReadLine());
+        int b = int.Parse(Console.ReadLine());
+        // Call the method with a and b as arguments
+        
+    }
+}
+
+
+using System;
+
+public class Program {
+    // Method declaration
+    public static void Mult(int a, int b) {
+        Console.WriteLine(a * b);
+    }
+
+    public static void Main(string[] args) {
+        int a = int.Parse(Console.ReadLine());
+        int b = int.Parse(Console.ReadLine());
+        // Call the method with a and b as arguments
+        Mult(a, b);
+    }
+}
