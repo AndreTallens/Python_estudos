@@ -1,0 +1,15 @@
+Tipos de Retorno
+
+
+
+A declaração return em um método é usada para especificar o valor ou valores que o método deve produzir como sua saída. Por exemplo, o método a seguir produzirá 100:
+
+public static int FunctionName() {
+    return 100;
+}
+Para passar o valor para uma variável, escreva:
+
+int number = FunctionName();
+Agora a variável number conterá 100 porque isso é o que o método retornou.
+
+Observe que o tipo de retorno do método (int neste caso) deve corresponder ao tipo de dados da variável onde você está armazenando o valor retornado.
