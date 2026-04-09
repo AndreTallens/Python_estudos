@@ -1,0 +1,23 @@
+The Enumerate Function
+
+
+
+Desafio
+
+Fácil
+Escreva um programa que processa uma lista de números e encontra índices específicos usando a função enumerate().
+
+Tarefa: Dada uma lista de números separada por vírgulas como entrada, imprima uma lista dos índices dos números que atendam a qualquer uma dessas condições:
+
+O número é menor que 50, OU
+O número é divisível por 5 (resto é 0 quando dividido por 5)
+Exemplo:
+
+Entrada: 80,4,99,36,34
+
+80 (índice 0): ≥50 mas divisível por 5 → incluir índice 0
+4 (índice 1): <50 → incluir índice 1
+99 (índice 2): ≥50 e não divisível por 5 → excluir
+36 (índice 3): <50 → incluir índice 3
+34 (índice 4): <50 → incluir índice 4
+Saída: [0, 1, 3, 4]
