@@ -1,0 +1,34 @@
+Iterando Sobre Strings Parte 2
+
+
+
+A divisão de strings permite que você quebre uma string em uma lista, enquanto a junção permite que você combine itens de lista em uma string.
+
+O método split() divide uma string em uma lista de sub-strings com base em um delimitador.
+
+Dividir por espaço em branco:
+
+text = "apple banana cherry"
+fruits = text.split()
+print(fruits)
+# ['apple', 'banana', 'cherry']
+Dividir com delimitador específico:
+
+data = "john,25,new york"
+data = data.split(',')
+print(data)
+# ['john', '25', 'new york']
+O método join() combina elementos de um iterável em uma única string.
+
+Junção básica:
+
+words = ['Hello', 'World', 'Python']
+text = ' '.join(words)
+print(text)
+# "Hello World Python"
+Juntar com separador diferente:
+
+fruits = ['apple', 'banana', 'cherry']
+line = ','.join(fruits)
+print(line)
+# "apple,banana,cherry"
