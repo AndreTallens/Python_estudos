@@ -1,0 +1,18 @@
+Iterating Over Strings Part 1
+
+
+
+Desafio
+
+Fácil
+Crie um programa que recebe uma string como entrada e imprime quantas vezes o caractere p (ou P) aparece na string.
+
+Alguns caracteres podem estar em maiúscula, use char.lower() para convertê-lo para minúscula.
+
+text = input()
+# Write your code below
+count = 0
+for char in text:
+    if char.lower() == 'p':
+        count += 1
+print(count)
