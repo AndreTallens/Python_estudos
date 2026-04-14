@@ -1,0 +1,14 @@
+Iterando sobre Strings Parte 2
+
+
+
+Desafio
+
+Fácil
+Escreva um programa que receba duas entradas: uma string de texto e um caractere delimitador. O programa deve dividir o texto por espaços em branco em palavras, depois juntar essas palavras usando o caractere delimitador especificado e imprimir a string resultante.
+
+text = input()
+delimiter = input()
+res = text.split()
+res = delimiter.join(res)
+print(res)
