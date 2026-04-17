@@ -1,0 +1,23 @@
+List Slicing Part 1
+
+
+
+Desafio
+
+Fácil
+Crie um programa que receba uma lista como entrada (given) e imprima a seguinte lista fatiada (dependendo do comprimento da lista):
+
+Para listas de comprimento ímpar: pegue o item do meio e um item de cada lado (3 itens no total)
+Para listas de comprimento par: pegue os dois itens do meio
+Ao dividir números:
+
+/ resulta em um número decimal (5/2 = 2.5)
+// remove a parte decimal (5//2 = 2)
+Para este desafio, use // porque o fatiamento de listas (slicing) só funciona com números inteiros.
+
+lst = input().split(",")
+if len(lst) % 2 == 0:
+    lst_mid = lst[len(lst)//2-1:len(lst)//2+1]
+else:
+    lst_mid = lst[len(lst)//2-1:len(lst)//2+2]
+print(lst_mid)
