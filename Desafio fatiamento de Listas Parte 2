@@ -1,0 +1,21 @@
+Fatiamento de Listas Parte 2
+
+
+
+Desafio
+
+Fácil
+Crie um programa que receba uma lista como entrada (fornecida) e imprima três novas listas baseadas nas seguintes operações de fatiamento (slicing):
+
+Uma lista contendo cada terceiro elemento, começando a partir do índice 1 (o segundo elemento)
+Uma lista contendo todos os elementos do 6º elemento ao 1º em ordem reversa
+Uma lista contendo cada segundo elemento começando do meio da lista até o final
+
+lst = input().split(",")
+slice1 = lst[1::3]
+slice2 = lst[5::-1]
+middle = len(lst)//2
+slice3 = lst[middle::2]
+print(slice1)
+print(slice2)
+print(slice3)
