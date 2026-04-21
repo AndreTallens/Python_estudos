@@ -1,0 +1,13 @@
+Desafio
+
+Fácil
+Escreva um programa que recebe uma lista de palavras como entrada (dado), e imprime uma lista dos índices das palavras que têm mais de 3 caracteres ou começam com a letra 'a' (sensível a maiúsculas e minúsculas).
+
+Para verificar se uma string começa com algum substring, use: str.startswith("substring")
+
+lst = input().split()
+new_lst = []
+for index, word in enumerate(lst):
+    if len(word) > 3 or word.startswith('a'):
+        new_lst.append(index)
+print(new_lst)
