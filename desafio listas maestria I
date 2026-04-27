@@ -1,0 +1,14 @@
+Desafio
+
+Fácil
+Crie um programa que recebe uma lista e imprime:
+
+Para listas com 5 ou mais itens: os dois primeiros e os dois últimos itens
+Para listas com menos de 5 itens: apenas o primeiro e o último item
+
+  input_list = input().split(', ')
+# Write your code below
+if len(input_list) >= 5:
+    print([input_list[0], input_list[1], input_list[len(input_list) - 2], input_list[len(input_list) - 1]])
+else:
+    print([input_list[0], input_list[len(input_list) - 1]])
