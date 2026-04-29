@@ -1,0 +1,28 @@
+Operadores de Sequência
+
+
+
+Python oferece vários operadores que podem ser usados com sequências como listas, strings e tuplas.
+
+A concatenação com o operador + junta duas sequências:
+
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+combined_list = list1 + list2
+Após executar o código acima, combined_list contém:
+
+[1, 2, 3, 4, 5, 6]
+A repetição com o operador * repete uma sequência um número especificado de vezes:
+
+numbers = [1, 2, 3]
+repeated_numbers = numbers * 3
+Após executar o código acima, repeated_numbers contém:
+
+[1, 2, 3, 1, 2, 3, 1, 2, 3]
+Estes operadores funcionam com outras sequências também:
+
+# Concatenação de strings
+greeting = "Hello" + " " + "World"  # "Hello World"
+
+# Repetição de strings
+stars = "*" * 5  # "*****"
