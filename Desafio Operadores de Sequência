@@ -1,0 +1,21 @@
+Operadores de Sequência
+
+
+challenge icon
+Desafio
+
+Fácil
+Crie uma função chamada create_pattern que recebe dois argumentos:
+
+Uma lista de números (numbers).
+Um número inteiro (repeats).
+A função deve:
+
+Concatenar a lista com ela mesma (lista + lista).
+Repetir a lista resultante repeats vezes usando o operador *.
+Retornar o padrão final.
+
+def create_pattern(numbers, repeats):
+    doubled = numbers + numbers
+    pattern = doubled * repeats
+    return pattern
